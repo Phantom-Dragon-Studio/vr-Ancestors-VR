@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9895668c40d50674a807c6fdf4827382, type: 3}
+  m_Name: New Item
+  m_EditorClassIdentifier: 
+  equippableItemSlot: 0
+  itemCategory: 1
+  itemIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  itemPrefab: {fileID: 1903328209227458, guid: aaf5a39dad8eb1a4c8a2ba011b628366, type: 2}
+  itemID: IT!02
+  itemName: Tester
+  itemDescription: Testing...1...2...3....
+  itemValue: 9001
+  baseDamage: 666
+  baseDefence: 1
+  attackSpeed: 0
+  strength: 5
+  agility: 5
+  intellect: 5
+  endurance: 5
+  isUnique: 1
+  isTwoHanded: 0
