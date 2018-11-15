@@ -4,22 +4,6 @@ using UnityEngine;
 
 public class Unique : ItemInspectorAgent
 {
-    private string myItemID;
-    private ItemInspectorAgent myAgent;
-
-    public void Start()
-    {
-        myAgent = this.GetComponent<ItemInspectorAgent>();
-        AssignID(myAgent);
-    }
-
-    public void AssignID (ItemInspectorAgent myAgent) {
-        if (myAgent != null)
-        {
-            myItemID = myAgent.itemInformation.ITEMID;
-        }
-	}
-
     public bool CheckForDuplicates(ItemBaseAtributes uniqueItemToCheckFor, InventoryDatabase databaseToCheckForUniqueItem)
     {
         if (databaseToCheckForUniqueItem.WEAPONSLIST.Contains(uniqueItemToCheckFor)) return true;

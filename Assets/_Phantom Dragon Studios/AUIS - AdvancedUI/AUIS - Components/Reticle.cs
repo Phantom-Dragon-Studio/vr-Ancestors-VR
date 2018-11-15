@@ -15,7 +15,6 @@ public class Reticle : MonoBehaviour
         Layer.WorldSpaceCanvas,
         Layer.InWorldObject,
     };
-    private Vector3 originalScale;
     private Transform reticleTransform, controller;
     private float maxRayDistance = 50;
     RaycastHit m_hit;
@@ -25,7 +24,7 @@ public class Reticle : MonoBehaviour
     {
         get { return m_hit; }
     }
-
+     
     public Layer LayerHit
     {
         get { return m_layerHit; }
@@ -33,11 +32,10 @@ public class Reticle : MonoBehaviour
 
     void Start()
     {
-        originalScale = this.transform.localScale;
         controller = this.transform.parent.transform;
         reticleTransform = this.transform;
-    }
-
+    } 
+      
     void Update()
     {
         // Look for and return priority layer hit

@@ -5,22 +5,15 @@ using UnityEngine.UI;
 
 public class TwoHanded : ItemInspectorAgent
 {
-    ItemInspectorAgent myItemData;
     GameObject mirrorObject;
-
-    //public void Awake()
-    //{
-    //    InitializeTwoHanders(this);
-    //}
 
     public void InitializeTwoHanders(ItemInspectorAgent passedItemData, ItemBaseAtributes passedItemInformation)
     {
-        myItemData = passedItemData.GetComponent<ItemInspectorAgent>();
-        myItemData.itemInformation = passedItemData.itemInformation;
+        this.itemInformation = passedItemData.itemInformation;
         mirrorObject = Instantiate(Resources.Load("_DummyItem"), this.gameObject.transform.parent, false) as GameObject;
         DummyItem myDummy = mirrorObject.GetComponent<DummyItem>();
         Debug.Log(passedItemData.itemInformation);
-        myDummy.InitializeDummy(myItemData.itemInformation.ITEMNAME, myItemData.itemInformation.ITEMICON);
+        myDummy.InitializeDummy(this.itemInformation.ITEMNAME, this.itemInformation.ITEMICON);
     }
 
     public void UpdateTwinLocation(DummyItem dummyItem, ItemPanel triggeringPanel)

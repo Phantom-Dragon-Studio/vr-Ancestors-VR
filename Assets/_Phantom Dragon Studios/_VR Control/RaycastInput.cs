@@ -15,7 +15,6 @@ public class RaycastInput : MonoBehaviour
     [SerializeField] LayerMask whatIsInteractable;      //The layers that this raycast affects
     [SerializeField] float rayDistance = 20f;           //The distance that the input ray should be cast
     [SerializeField] bool drawDebugLine;                //Should we draw a debug ray?
-    [SerializeField] float defaultLineDistance = 10f;   //The distance in front of the player that the line ends if nothing is highlighted
 
     Ray ray;                                            //A container for the ray
     RaycastHit rayHit;                                  //The results of a raycast

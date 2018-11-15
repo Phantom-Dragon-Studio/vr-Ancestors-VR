@@ -34,7 +34,7 @@ public class InventoryManager : MonoBehaviour
             else return null;
         }
         else
-        {
+        { 
             Debug.Log("Inventory full, unable to add new item.");
             return null;
         }
@@ -218,6 +218,6 @@ public class InventoryManager : MonoBehaviour
 
     public void TabSorting(ItemCategory categoryToShow)
     {
-        Debug.Log("Inventory is tab sorting items by category: ");
+        Debug.Log("Inventory is tab sorting items by category: " + categoryToShow.ToString());
     }
 }

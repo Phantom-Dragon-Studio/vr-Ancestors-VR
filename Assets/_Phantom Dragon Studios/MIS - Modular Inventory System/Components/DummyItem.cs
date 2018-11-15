@@ -6,9 +6,7 @@ public class DummyItem : MonoBehaviour {
 
     [HideInInspector]
     public ItemSlotType mySlotType;
-
     private Image myImage;
-    private string twoHandedPairItemID;
 
     private void Awake()
     {
@@ -20,14 +18,8 @@ public class DummyItem : MonoBehaviour {
     // Use this for initialization
     public void InitializeDummy(string myName, Sprite twinImage)
     {
+        mySlotType = ItemSlotType.OFFHANDOFFENSE;
         this.name = myName + "_DummyItem";
         myImage.sprite = twinImage;
     }
-
-    public void SetDummyItemID (string IDtoSet)
-    {
-        twoHandedPairItemID = IDtoSet;
-    }
-
-    
 }

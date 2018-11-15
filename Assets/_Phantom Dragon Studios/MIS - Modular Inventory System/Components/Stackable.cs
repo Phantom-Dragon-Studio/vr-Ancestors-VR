@@ -11,10 +11,7 @@ public class Stackable : ItemInspectorAgent
 
     private ItemPanel parentPanel;
     private GameObject stackCountGameObject;
-    private RectTransform stackCountDisplayRect;
     private TextMeshProUGUI stackCountText;
-    private ItemInspectorAgent myAgent;
-    private InventoryManager inventoryManager;
 
     void Awake()
     {
@@ -26,11 +23,8 @@ public class Stackable : ItemInspectorAgent
 
     public TextMeshProUGUI InitalizeStackableItem(Stackable thisStackableItem)
     {
-        myAgent = this.GetComponent<ItemInspectorAgent>();
-        RectTransform stackableItem = thisStackableItem.GetComponent<RectTransform>();
         stackCountGameObject = Instantiate(inventoryManager.StackCount, this.gameObject.transform, false) as GameObject;
         stackCountGameObject.transform.position = Vector2.zero;
-        stackCountDisplayRect = stackCountGameObject.GetComponent<RectTransform>();
         parentPanel = this.GetCurrentItemPanel();
         return stackCountText;
     }
@@ -106,7 +100,7 @@ public class Stackable : ItemInspectorAgent
 
     private void ExecuteSplitting(Stackable triggeringItem)
     {
-        GameObject secondStack = inventoryManager.CreateNewItem(myAgent.itemInformation, this.GetCurrentItemPanel());
+        GameObject secondStack = inventoryManager.CreateNewItem(this.itemInformation, this.GetCurrentItemPanel());
         Stackable secondStackStackableData = secondStack.GetComponent<Stackable>();
         ItemInspectorAgent secondStackitemData = secondStack.GetComponent<ItemInspectorAgent>();
         secondStackitemData.itemInformation.CopyInventoryItem(triggeringItem.itemInformation);
