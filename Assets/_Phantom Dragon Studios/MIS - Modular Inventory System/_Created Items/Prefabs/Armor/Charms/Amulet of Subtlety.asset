@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9895668c40d50674a807c6fdf4827382, type: 3}
+  m_Name: Amulet of Subtlety
+  m_EditorClassIdentifier: 
+  equippableItemSlot: 1
+  itemCategory: 2
+  itemIcon: {fileID: 21300000, guid: a3a12345f79c6fb40a4b6462fe21bffa, type: 3}
+  itemPrefab: {fileID: 1819620408817938, guid: 11d43e26b64eaf44c9d89b4bcae7495f, type: 2}
+  itemID: AAS01
+  itemName: Amulet of Subtlety
+  itemDescription: This charm of Subtlety improves stealth, making the wearer harder
+    to detect.
+  itemValue: 548
+  baseDamage: 0
+  baseDefense: 0
+  attackSpeed: 0
+  strength: 0
+  agility: 0
+  intellect: 0
+  endurance: 0
+  numericModifer: 0.5
+  effectDuration: 0
+  isUnique: 1
+  isTwoHanded: 0

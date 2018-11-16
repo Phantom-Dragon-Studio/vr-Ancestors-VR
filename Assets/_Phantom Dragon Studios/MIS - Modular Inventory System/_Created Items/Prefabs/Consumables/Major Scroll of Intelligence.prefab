@@ -55,10 +55,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2325fe1f93e70624ca77a9e227430d51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemInformation: {fileID: 0}
-  ParentItemPanelBeforeDraggingStarted: {fileID: 0}
-  postDragParentItemPanel: {fileID: 0}
-  placeholderParent: {fileID: 0}
+  itemInformation: {fileID: 11400000, guid: e95d01eaffb20f846bf244c3bb4bfda9, type: 2}
+  inventoryManager: {fileID: 0}
   parentItemPanel: {fileID: 0}
   currentStackSize: 1
   maximumStackSize: 20

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9895668c40d50674a807c6fdf4827382, type: 3}
+  m_Name: Crimson Boots
+  m_EditorClassIdentifier: 
+  equippableItemSlot: 1
+  itemCategory: 2
+  itemIcon: {fileID: 21300000, guid: c30cc3491c90bdb41ad2ae2763a25424, type: 3}
+  itemPrefab: {fileID: 1819620408817938, guid: edfa12cd3bae4fb47882c9c43b72c01c, type: 2}
+  itemID: ACB02
+  itemName: Crimson Boots
+  itemDescription: Sleek crimson colored leather armour. Provised superior agility,
+    strength, endurance, and greatly increased defense.
+  itemValue: 999
+  baseDamage: 0
+  baseDefense: 20
+  attackSpeed: 0
+  strength: 9
+  agility: 14
+  intellect: 0
+  endurance: 10
+  numericModifer: 0
+  effectDuration: 0
+  isUnique: 1
+  isTwoHanded: 0

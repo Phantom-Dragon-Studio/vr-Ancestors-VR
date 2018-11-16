@@ -45,12 +45,14 @@ public class ItemBaseAtributes : ScriptableObject
     [SerializeField] private string itemDescription = "";
     [SerializeField] private float itemValue = 0f;
     [SerializeField] private float baseDamage = 0;
-    [SerializeField] private float baseDefence = 0;
+    [SerializeField] private float baseDefense = 0;
     [SerializeField] private float attackSpeed = 0;
     [SerializeField] private float strength = 0;
     [SerializeField] private float agility = 0;
     [SerializeField] private float intellect = 0;
     [SerializeField] private float endurance = 0;
+    [SerializeField] private float numericModifer = 0;
+    [SerializeField] private float effectDuration = 0;
     [SerializeField] public bool isUnique = false;
     [SerializeField] public bool isTwoHanded = false;
 
@@ -121,8 +123,8 @@ public class ItemBaseAtributes : ScriptableObject
     public float BASEDEFENCE
     {
 
-        get { return this.baseDefence; }
-        set { this.baseDefence = value; }
+        get { return this.baseDefense; }
+        set { this.baseDefense = value; }
     }
 
     public float ATTACKSPEED
@@ -160,6 +162,20 @@ public class ItemBaseAtributes : ScriptableObject
         set { this.endurance = value; }
     }
 
+    public float MODIFIER
+    {
+
+        get { return this.numericModifer; }
+        set { this.numericModifer = value; }
+    }
+
+    public float DURATION
+    {
+
+        get { return this.effectDuration; }
+        set { this.effectDuration = value; }
+    }
+
     public void CopyInventoryItem(ItemBaseAtributes item)
     {
         this.EQUIPPABLEITEMSLOT = item.EQUIPPABLEITEMSLOT;
@@ -176,6 +192,8 @@ public class ItemBaseAtributes : ScriptableObject
         this.AGILITY = item.AGILITY;
         this.INTELLECT = item.INTELLECT;
         this.ENDURANCE = item.ENDURANCE;
+        this.MODIFIER = item.MODIFIER;
+        this.DURATION = item.DURATION;
         this.ITEMID = item.ITEMID;
         this.isUnique = item.isUnique;
         this.isTwoHanded = item.isTwoHanded;

@@ -74,10 +74,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b267b490dd60634faf80c9c950a20cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemInformation: {fileID: 0}
-  ParentItemPanelBeforeDraggingStarted: {fileID: 0}
-  postDragParentItemPanel: {fileID: 0}
-  placeholderParent: {fileID: 0}
+  itemInformation: {fileID: 11400000, guid: f4a578415c5c26946b53c8398c16a6de, type: 2}
+  inventoryManager: {fileID: 0}
   parentItemPanel: {fileID: 0}
 --- !u!114 &114924616755208542
 MonoBehaviour:
