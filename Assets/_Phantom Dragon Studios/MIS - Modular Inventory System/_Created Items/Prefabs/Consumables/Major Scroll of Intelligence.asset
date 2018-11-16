@@ -18,9 +18,9 @@ MonoBehaviour:
   itemID: CMSI1
   itemName: Major Scroll of Intelligence
   itemDescription: Temporarily increases Intelligence by 20 for 120 seconds.
-  itemValue: 0
+  itemValue: 150
   baseDamage: 0
-  baseDefence: 0
+  baseDefense: 0
   attackSpeed: 0
   strength: 0
   agility: 0

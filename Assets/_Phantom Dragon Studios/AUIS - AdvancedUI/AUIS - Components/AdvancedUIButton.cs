@@ -93,17 +93,22 @@ public class AdvancedUIButton : MonoBehaviour, IPointerEnterHandler, IPointerExi
         if (triggeringObject.GetComponent<UsableAbility>() != null)
         {
             _AbilityData isAbility;
-            var temp = triggeringObject.GetComponent<UsableAbility>();
-            isAbility = temp.abilityInfo;
+            isAbility = triggeringObject.GetComponent<UsableAbility>().abilityInfo;
             tooltipHandler.AssignTooltipData(isAbility);
             return;
         }
         else if (triggeringObject.GetComponent<TalentNode>() != null)
         {
             _AbilityData isAbility;
-            var temp = triggeringObject.GetComponent<TalentNode>();
-            isAbility = temp.nodeInfo;
+            isAbility = triggeringObject.GetComponent<TalentNode>().nodeInfo;
             tooltipHandler.AssignTooltipData(isAbility);
+            return;
+        }
+        else if (triggeringObject.GetComponent<ItemInspectorAgent>() != null)
+        {
+            ItemBaseAtributes isItem;
+            isItem = triggeringObject.GetComponent<ItemInspectorAgent>().itemInformation;
+            tooltipHandler.AssignTooltipData(isItem);
             return;
         }
         else if (triggeringObject.GetComponent<AdvancedUIButton>() != null)
@@ -113,21 +118,11 @@ public class AdvancedUIButton : MonoBehaviour, IPointerEnterHandler, IPointerExi
             tooltipHandler.AssignTooltipData(isUIButton);
             return;
         }
-        //World Objects wouldn't have a UI UI button on them, could possibly be made to work. Reevaluate later.
-        //else if (triggeringObject.GetComponent<WorldObjectTooltipAgent>() != null)
-        //{
-        //    WorldObjectTooltipAgent isWorldObject;
-        //    isWorldObject = triggeringObject.GetComponent<WorldObjectTooltipAgent>();
-        //    tooltipHandler.AssignTooltipData(isWorldObject);
-        //    return;
-        //}
-
-        //IF ITEM DO STRUFF
     }
 
     private void OnHoverExit()
     {
-        image.color = UISkinData.defaultButtonColor;
+        if (UISkinData != null) image.color = UISkinData.defaultButtonColor;
         myVeretexEffect.SetDirty();
     }
     private void OnClick()

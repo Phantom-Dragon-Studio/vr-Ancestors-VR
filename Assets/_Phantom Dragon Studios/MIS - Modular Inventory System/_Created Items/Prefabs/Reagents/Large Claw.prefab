@@ -25,7 +25,10 @@ GameObject:
   - component: {fileID: 114875807503371704}
   - component: {fileID: 65369195099311234}
   - component: {fileID: 114313818882629950}
-  m_Layer: 0
+  - component: {fileID: 114608420976796590}
+  - component: {fileID: 114940866625587328}
+  - component: {fileID: 114641309944541410}
+  m_Layer: 8
   m_Name: Large Claw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +42,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1483207563351710}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2, y: 3, z: 1}
@@ -55,13 +58,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2325fe1f93e70624ca77a9e227430d51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemInformation: {fileID: 0}
-  ParentItemPanelBeforeDraggingStarted: {fileID: 0}
-  postDragParentItemPanel: {fileID: 0}
-  placeholderParent: {fileID: 0}
+  itemInformation: {fileID: 11400000, guid: 6df3e356dcba9a344a54b14925521e29, type: 2}
+  inventoryManager: {fileID: 0}
   parentItemPanel: {fileID: 0}
   currentStackSize: 1
   maximumStackSize: 20
+--- !u!114 &114608420976796590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483207563351710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e62188adca544cf1b96ccf1630f15f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DoNotTesselate: 0
+  savedPos: {x: 6.619995, y: -3.9400017, z: -0.0000016889434}
+  savedUp: {x: 0, y: 1, z: 0}
+  savedRectSize: {x: 2, y: 3}
+  savedColor: {r: 1, g: 1, b: 1, a: 1}
+  savedTextUV0: {x: 0, y: 0}
+  savedFill: 1
+--- !u!114 &114641309944541410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483207563351710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2502b25c544fd8c4a851c429654c1d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UISkinData: {fileID: 11400000, guid: 57e9dd0ac2f8881468a6eb80ee3aa244, type: 2}
+  myTooltipData: {fileID: 0}
+  buttonType: 0
 --- !u!114 &114875807503371704
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -108,6 +141,47 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &114940866625587328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483207563351710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114875807503371704}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!222 &222945347092355264
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -130,7 +204,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.8499999, y: -17.15}
   m_SizeDelta: {x: 2, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &225345557856110718

@@ -19,15 +19,15 @@ MonoBehaviour:
   itemName: Linen Pants
   itemDescription: Plain linen pants, allows maximum mobility while providing virtually
     no protection.
-  itemValue: 20
+  itemValue: 24
   baseDamage: 0
   baseDefense: 2
   attackSpeed: 0
   strength: 0
   agility: 0
-  intellect: 1
+  intellect: 3
   endurance: 2
-  numericModifer: 0
-  effectDuration: 0
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

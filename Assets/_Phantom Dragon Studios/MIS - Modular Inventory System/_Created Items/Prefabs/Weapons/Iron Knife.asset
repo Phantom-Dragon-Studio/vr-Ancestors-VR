@@ -18,15 +18,15 @@ MonoBehaviour:
   itemID: WIK01
   itemName: Iron Knife
   itemDescription: Basic one handed iron knife. Fast attack speed.
-  itemValue: 10
+  itemValue: 23
   baseDamage: 6
   baseDefense: 0
   attackSpeed: 8
   strength: 1
   agility: 2
   intellect: 0
-  endurance: 0
-  numericModifer: 0
-  effectDuration: 0
+  endurance: 1
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

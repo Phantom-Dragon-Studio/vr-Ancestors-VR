@@ -18,9 +18,9 @@ MonoBehaviour:
   itemID: CSHC1
   itemName: Superior Health Crystal
   itemDescription: Restore 100 health over 30 seconds.
-  itemValue: 0
+  itemValue: 250
   baseDamage: 0
-  baseDefence: 0
+  baseDefense: 0
   attackSpeed: 0
   strength: 0
   agility: 0

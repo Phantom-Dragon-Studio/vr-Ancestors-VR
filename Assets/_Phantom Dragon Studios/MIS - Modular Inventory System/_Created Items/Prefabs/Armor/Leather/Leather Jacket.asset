@@ -19,15 +19,15 @@ MonoBehaviour:
   itemName: Leather Jacket
   itemDescription: Plain leather jacket, allows imporived mobility while providing
     a small amount of protection.
-  itemValue: 27
+  itemValue: 32
   baseDamage: 0
   baseDefense: 6
   attackSpeed: 0
-  strength: 1
-  agility: 3
+  strength: 2
+  agility: 2
   intellect: 0
   endurance: 2
-  numericModifer: 0
-  effectDuration: 0
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

@@ -18,9 +18,9 @@ MonoBehaviour:
   itemID: CMHC1
   itemName: Moderate Health Crystal
   itemDescription: Restore 50 health over 60 seconds.
-  itemValue: 0
+  itemValue: 100
   baseDamage: 0
-  baseDefence: 0
+  baseDefense: 0
   attackSpeed: 0
   strength: 0
   agility: 0

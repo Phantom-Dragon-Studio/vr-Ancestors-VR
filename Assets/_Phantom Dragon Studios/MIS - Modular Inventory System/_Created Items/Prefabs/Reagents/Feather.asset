@@ -20,13 +20,13 @@ MonoBehaviour:
   itemDescription: Feather from a smaller bird. Can be used for crafting.
   itemValue: 1
   baseDamage: 0
-  baseDefence: 0
+  baseDefense: 0
   attackSpeed: 0
   strength: 0
   agility: 0
   intellect: 0
   endurance: 0
-  numericModifer: 0
-  effectDuration: 0
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

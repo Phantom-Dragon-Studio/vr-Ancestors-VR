@@ -17,17 +17,17 @@ MonoBehaviour:
   itemPrefab: {fileID: 1819620408817938, guid: 7ccf2dfac87edcf49a7f42fb82a07382, type: 2}
   itemID: ACB01
   itemName: Crimson Belt
-  itemDescription: Sleek crimson colored leather armour. Provised superior agility,
+  itemDescription: Sleek crimson colored leather armour. Provides superior agility,
     strength, endurance, and greatly increased defense.
-  itemValue: 328
-  baseDamage: 8
-  baseDefense: 0
+  itemValue: 823
+  baseDamage: 0
+  baseDefense: 8
   attackSpeed: 0
   strength: 5
   agility: 8
   intellect: 0
   endurance: 4
-  numericModifer: 0
-  effectDuration: 0
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 1
   isTwoHanded: 0

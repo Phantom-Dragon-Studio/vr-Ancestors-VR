@@ -13,20 +13,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equippableItemSlot: 12
   itemCategory: 5
-  itemIcon: {fileID: 21300000, guid: 11e557fd83a7b9f4f9a0234ee39cbd99, type: 3}
+  itemIcon: {fileID: 21300000, guid: 1e4188b6959fc9349981ae2c0601ea20, type: 3}
   itemPrefab: {fileID: 1903328209227458, guid: aaf5a39dad8eb1a4c8a2ba011b628366, type: 2}
   itemID: RF001
-  itemName: Feather
-  itemDescription: Feather from a smaller bird. Can be used for crafting.
+  itemName: Fish Scale
+  itemDescription: Fish scale from a regular fish. Can be used for crafting.
   itemValue: 1
   baseDamage: 0
-  baseDefence: 0
+  baseDefense: 0
   attackSpeed: 0
   strength: 0
   agility: 0
   intellect: 0
   endurance: 0
-  numericModifer: 0
-  effectDuration: 0
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9895668c40d50674a807c6fdf4827382, type: 3}
+  m_Name: Weak Health Crystal
+  m_EditorClassIdentifier: 
+  equippableItemSlot: 12
+  itemCategory: 3
+  itemIcon: {fileID: 21300000, guid: 11e557fd83a7b9f4f9a0234ee39cbd99, type: 3}
+  itemPrefab: {fileID: 1026431364912788, guid: f39f1db427dc13e49bc258c8619873bf, type: 2}
+  itemID: CWHC1
+  itemName: Weak Health Crystal
+  itemDescription: Restore 25 health over 60 seconds.
+  itemValue: 50
+  baseDamage: 0
+  baseDefense: 0
+  attackSpeed: 0
+  strength: 0
+  agility: 0
+  intellect: 0
+  endurance: 0
+  numericModifer: 25
+  effectDuration: 60
+  isUnique: 0
+  isTwoHanded: 0

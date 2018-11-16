@@ -12,16 +12,22 @@ public class TooltipHandler : MonoBehaviour {
     [HideInInspector]
     public TooltipWindow tooltipWindow;
     private string hoverTargetName, hoverTargetDescription;
-    private float hoverTargetMinRange, hoverTargetMaxRange, hoverTargetDuration, hoverTargetCooldown;
+    private float hoverTargetMinRange, hoverTargetMaxRange, hoverTargetDuration, hoverTargetCooldown, hoverTargetDamage, 
+        hoverTargetDefense, hoverTargetAttackSpeed;
     private TargetType? hoverTargetActionType;
     private Faction? hoverTargetFaction;
     private Sprite hoverTargetImage;
-    private int hoverTargetCost, hoverTargetLevel;
+
+    private int hoverTargetCost, hoverTargetLevel,
+        hoverTargetStrength, hoverTargetAgility, hoverTargetIntelligence, hoverTargetEndurance, hoverTargetNumericModifier;
+
     private bool? hoverTargetIsStatic;
     private bool showWindow = true; //Change to false later after testing.
     private float timeSinceLastTooltipDisplay;
     private TextMeshProUGUI[] tooltipFields;
-    private TextMeshProUGUI selectedField, factionDisplay, titleDisplay, levelDisplay, rangeDisplay, targetTypeDisplay, costDisplay, durationDisplay, isStaticObjectDisplay, cooldownDisplay, descriptionDisplay;
+    private TextMeshProUGUI selectedField, factionDisplay, titleDisplay, levelDisplay, rangeDisplay, targetTypeDisplay,
+        costDisplay, durationDisplay, isStaticObjectDisplay, cooldownDisplay, descriptionDisplay, hoverTargetDamageDisplay, hoverTargetDefenseDisplay, hoverTargetAttackSpeedDisplay, hoverTargetStrengthDisplay, hoverTargetAgilityDisplay,
+        hoverTargetIntelligenceDisplay, hoverTargetEnduranceDisplay;
 
     //Public Variables
     public Vector3 offset;
@@ -45,8 +51,10 @@ public class TooltipHandler : MonoBehaviour {
         for (int i = 0; i < tooltipFields.Length; i++)
         {
             selectedField = tooltipFields[i];
+            tooltipFields[i].transform.SetSiblingIndex(i);
             WINDOWFIELDS.Add(selectedField);
-            WINDOWFIELDS.Sort((tooltipFields, selectedField) => tooltipFields.transform.GetSiblingIndex().CompareTo(WINDOWFIELDS.IndexOf(WINDOWFIELDS[i])));
+            WINDOWFIELDS.Sort((tooltipFields, selectedField) => 
+                tooltipFields.transform.GetSiblingIndex().CompareTo(WINDOWFIELDS.IndexOf(WINDOWFIELDS[i])));
         }
     }
 
@@ -70,7 +78,7 @@ public class TooltipHandler : MonoBehaviour {
     {
         ClearTooltipWindow();
         hoverTargetActionType = abilityInfoToRead.abilityTargetType;
-        hoverTargetName = abilityInfoToRead.name;
+        hoverTargetName = abilityInfoToRead.abilityName;
         hoverTargetDescription = abilityInfoToRead.abilityTooltip;
         hoverTargetMinRange = abilityInfoToRead.abilityMinRange;
         hoverTargetMaxRange = abilityInfoToRead.abilityMaxRange;
@@ -82,6 +90,27 @@ public class TooltipHandler : MonoBehaviour {
         showWindow = true;
         ShowTooltipWindow();
     }
+    //Information to display when hovering over an item.
+    public void AssignTooltipData(ItemBaseAtributes itemInfoToRead)
+    {
+        ClearTooltipWindow();
+        hoverTargetName = itemInfoToRead.ITEMNAME;
+        hoverTargetDescription = itemInfoToRead.ITEMDESCRIPTION;
+        hoverTargetDuration = itemInfoToRead.DURATION;
+        hoverTargetCost = itemInfoToRead.ITEMVALUE;
+        hoverTargetDamage = itemInfoToRead.BASEDAMAGE;
+        hoverTargetDefense = itemInfoToRead.BASEDEFENSE;
+        hoverTargetAttackSpeed = itemInfoToRead.ATTACKSPEED;
+        hoverTargetStrength = itemInfoToRead.STRENGTH;
+        hoverTargetAgility = itemInfoToRead.AGILITY;
+        hoverTargetIntelligence = itemInfoToRead.INTELLECT;
+        hoverTargetEndurance = itemInfoToRead.ENDURANCE;
+
+        UpdateTooltipDisplayInfo();
+        showWindow = true;
+        ShowTooltipWindow();
+    }
+
     //Information to display when hovering over a regular UI button.
     public void AssignTooltipData(AdvancedUIButton UIButtonInfoToRead)
     {
@@ -147,7 +176,8 @@ public class TooltipHandler : MonoBehaviour {
         rangeDisplay = WINDOWFIELDS[3].GetComponent<TextMeshProUGUI>(); //Range
         if (hoverTargetMaxRange != -1 && hoverTargetMinRange != -1)
         {
-            rangeDisplay.text = "<color=#00ff00ff>Min Range: <color=#ffffffff>" + hoverTargetMinRange.ToString() + "m" + "\n" + "<color=#008000ff>Max Range: <color=#ffffffff>" + hoverTargetMaxRange + "m";
+            rangeDisplay.text = "<color=#00ff00ff>Min Range: <color=#ffffffff>" + hoverTargetMinRange.ToString() + 
+                "m" + "\n" + "<color=#008000ff>Max Range: <color=#ffffffff>" + hoverTargetMaxRange + "m";
             rangeDisplay.gameObject.SetActive(true);
         }
         else WINDOWFIELDS[3].gameObject.SetActive(false);
@@ -199,13 +229,70 @@ public class TooltipHandler : MonoBehaviour {
         }
         else WINDOWFIELDS[8].gameObject.SetActive(false);
 
-        descriptionDisplay = WINDOWFIELDS[9].GetComponent<TextMeshProUGUI>(); //Description
-        if (descriptionDisplay != null)
+        //Item Fields
+        hoverTargetDamageDisplay = WINDOWFIELDS[9].GetComponent<TextMeshProUGUI>(); //Item Damage
+        if (hoverTargetDamage != 0)
+        {
+            hoverTargetDamageDisplay.text = "<color=#FFD700> Damage: <color=#ffffffff>" + hoverTargetDamage.ToString();
+            hoverTargetDamageDisplay.gameObject.SetActive(true);
+        }
+        else WINDOWFIELDS[9].gameObject.SetActive(false);
+
+        hoverTargetDefenseDisplay = WINDOWFIELDS[10].GetComponent<TextMeshProUGUI>(); //Item Defense
+        if (hoverTargetDefense != 0)
+        {
+            hoverTargetDefenseDisplay.text = "<color=#FFD700> Defense: <color=#ffffffff>" + hoverTargetDefense.ToString();
+            hoverTargetDefenseDisplay.gameObject.SetActive(true);
+        }
+        else WINDOWFIELDS[10].gameObject.SetActive(false);
+
+        hoverTargetAttackSpeedDisplay = WINDOWFIELDS[11].GetComponent<TextMeshProUGUI>(); //Item Defense
+        if (hoverTargetAttackSpeed != 0)
+        {
+            hoverTargetAttackSpeedDisplay.text = "<color=#FFD700> Attack Speed: <color=#ffffffff>" + hoverTargetAttackSpeed.ToString();
+            hoverTargetAttackSpeedDisplay.gameObject.SetActive(true);
+        }
+        else WINDOWFIELDS[11].gameObject.SetActive(false);
+
+        hoverTargetStrengthDisplay = WINDOWFIELDS[12].GetComponent<TextMeshProUGUI>(); //Item Strength
+        if (hoverTargetStrength != 0)
+        {
+            hoverTargetStrengthDisplay.text = "<color=#527a7a> Strength: <color=#00b300>" + hoverTargetStrength.ToString();
+            hoverTargetStrengthDisplay.gameObject.SetActive(true);
+        }
+        else WINDOWFIELDS[12].gameObject.SetActive(false);
+
+        hoverTargetAgilityDisplay = WINDOWFIELDS[13].GetComponent<TextMeshProUGUI>(); //Item Agility
+        if (hoverTargetAgility != 0)
+        {
+            hoverTargetAgilityDisplay.text = "<color=#527a7a> Agility: <color=#00b300>" + hoverTargetAgility.ToString();
+            hoverTargetAgilityDisplay.gameObject.SetActive(true);
+        }
+        else WINDOWFIELDS[13].gameObject.SetActive(false);
+
+        hoverTargetIntelligenceDisplay = WINDOWFIELDS[14].GetComponent<TextMeshProUGUI>(); //Item Intelligence
+        if (hoverTargetIntelligence != 0)
+        {
+            hoverTargetIntelligenceDisplay.text = "<color=#527a7a> Intelligence: <color=#00b300>" + hoverTargetIntelligence.ToString();
+            hoverTargetIntelligenceDisplay.gameObject.SetActive(true);
+        }
+        else WINDOWFIELDS[14].gameObject.SetActive(false);
+
+        hoverTargetEnduranceDisplay = WINDOWFIELDS[15].GetComponent<TextMeshProUGUI>(); //Item Intelligence
+        if (hoverTargetEndurance != 0)
+        {
+            hoverTargetEnduranceDisplay.text = "<color=#527a7a> Endurance: <color=#00b300>" + hoverTargetEndurance.ToString();
+            hoverTargetEnduranceDisplay.gameObject.SetActive(true);
+        }
+        else WINDOWFIELDS[15].gameObject.SetActive(false);
+
+        descriptionDisplay = WINDOWFIELDS[16].GetComponent<TextMeshProUGUI>(); //Description
+        if (hoverTargetDescription != null)
         {
             descriptionDisplay.text = "<color=#808080ff>" + "Description: <color=#ffffffff>" + hoverTargetDescription;
             descriptionDisplay.gameObject.SetActive(true);
         }
-        else WINDOWFIELDS[9].gameObject.SetActive(false);
+        else WINDOWFIELDS[16].gameObject.SetActive(false);
     }
     #endregion
 
@@ -226,6 +313,14 @@ public class TooltipHandler : MonoBehaviour {
         hoverTargetCost = -1;
         hoverTargetLevel = -1;
         hoverTargetIsStatic = null;
+        hoverTargetDamage = 0;
+        hoverTargetDefense = 0;
+        hoverTargetAttackSpeed = 0;
+        hoverTargetStrength = 0;
+        hoverTargetAgility = 0;
+        hoverTargetIntelligence = 0;
+        hoverTargetEndurance = 0;
+        hoverTargetNumericModifier = -1;
     }
 
     public void ShowTooltipWindow()

@@ -17,17 +17,17 @@ MonoBehaviour:
   itemPrefab: {fileID: 1819620408817938, guid: edfa12cd3bae4fb47882c9c43b72c01c, type: 2}
   itemID: ACB02
   itemName: Crimson Boots
-  itemDescription: Sleek crimson colored leather armour. Provised superior agility,
+  itemDescription: Sleek crimson colored leather armour. Provides superior agility,
     strength, endurance, and greatly increased defense.
-  itemValue: 999
+  itemValue: 754
   baseDamage: 0
   baseDefense: 20
   attackSpeed: 0
-  strength: 9
-  agility: 14
+  strength: 7
+  agility: 9
   intellect: 0
-  endurance: 10
-  numericModifer: 0
-  effectDuration: 0
+  endurance: 6
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 1
   isTwoHanded: 0

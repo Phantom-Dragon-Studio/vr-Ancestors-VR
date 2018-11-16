@@ -18,15 +18,15 @@ MonoBehaviour:
   itemID: WEST1
   itemName: Extra Sharp Tooth
   itemDescription: Extremely sharp tooth from a large animal.
-  itemValue: 18
+  itemValue: 80
   baseDamage: 5
   baseDefense: 0
   attackSpeed: 5
   strength: 1
-  agility: 2
+  agility: 3
   intellect: 0
-  endurance: 0
-  numericModifer: 0
-  effectDuration: 0
+  endurance: 1
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

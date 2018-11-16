@@ -19,7 +19,7 @@ MonoBehaviour:
   itemName: Leather Hat
   itemDescription: Plain leather hat, allows imporived mobility while providing a
     small amount of protection.
-  itemValue: 15
+  itemValue: 20
   baseDamage: 0
   baseDefense: 3
   attackSpeed: 0
@@ -27,7 +27,7 @@ MonoBehaviour:
   agility: 2
   intellect: 0
   endurance: 1
-  numericModifer: 0
-  effectDuration: 0
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

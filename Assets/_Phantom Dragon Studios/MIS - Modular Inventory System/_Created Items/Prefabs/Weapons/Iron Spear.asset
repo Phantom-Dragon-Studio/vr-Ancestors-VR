@@ -18,15 +18,15 @@ MonoBehaviour:
   itemID: WIS01
   itemName: Iron Spear
   itemDescription: Basic twohanded iron spear, does moderate damage but attacks slowly.
-  itemValue: 30
+  itemValue: 78
   baseDamage: 12
   baseDefense: 0
   attackSpeed: 2
   strength: 4
-  agility: 3
+  agility: 2
   intellect: 0
-  endurance: 2
-  numericModifer: 0
-  effectDuration: 0
+  endurance: 3
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 1

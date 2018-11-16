@@ -18,15 +18,15 @@ MonoBehaviour:
   itemID: WSD01
   itemName: Superior Dagger
   itemDescription: Powerful and fast dagger that deals an impressive amount of damage.
-  itemValue: 274
+  itemValue: 526
   baseDamage: 30
   baseDefense: 0
   attackSpeed: 25
-  strength: 9
-  agility: 12
+  strength: 14
+  agility: 22
   intellect: 0
-  endurance: 5
-  numericModifer: 0
-  effectDuration: 0
+  endurance: 11
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 1
   isTwoHanded: 0

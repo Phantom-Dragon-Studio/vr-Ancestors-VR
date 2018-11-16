@@ -18,15 +18,15 @@ MonoBehaviour:
   itemID: WDD01
   itemName: Deadly Dagger
   itemDescription: Fast dagger that deals a moderate amount of damage.
-  itemValue: 178
+  itemValue: 250
   baseDamage: 20
   baseDefense: 0
   attackSpeed: 18
-  strength: 4
-  agility: 8
+  strength: 8
+  agility: 12
   intellect: 0
-  endurance: 3
-  numericModifer: 0
-  effectDuration: 0
+  endurance: 6
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

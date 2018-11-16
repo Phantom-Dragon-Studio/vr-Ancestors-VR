@@ -18,15 +18,15 @@ MonoBehaviour:
   itemID: RDS01
   itemName: Dragon Scale
   itemDescription: Scales from a dragon! Can be used for crafting.
-  itemValue: 5
+  itemValue: 10
   baseDamage: 0
-  baseDefence: 0
+  baseDefense: 0
   attackSpeed: 0
   strength: 0
   agility: 0
   intellect: 0
   endurance: 0
-  numericModifer: 0
-  effectDuration: 0
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 0
   isTwoHanded: 0

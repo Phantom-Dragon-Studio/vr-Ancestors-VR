@@ -17,17 +17,17 @@ MonoBehaviour:
   itemPrefab: {fileID: 1819620408817938, guid: f8538af5e0745ca4ebcec69e3291fabc, type: 2}
   itemID: ACT02
   itemName: Crimson Trousers
-  itemDescription: Sleek crimson colored leather armour. Provised superior agility,
+  itemDescription: Sleek crimson colored leather armour. Provides superior agility,
     strength, endurance, and greatly increased defense.
-  itemValue: 1158
+  itemValue: 1875
   baseDamage: 0
   baseDefense: 30
   attackSpeed: 0
   strength: 15
-  agility: 18
+  agility: 20
   intellect: 0
-  endurance: 13
-  numericModifer: 0
-  effectDuration: 0
+  endurance: 18
+  numericModifer: -1
+  effectDuration: -1
   isUnique: 1
   isTwoHanded: 0

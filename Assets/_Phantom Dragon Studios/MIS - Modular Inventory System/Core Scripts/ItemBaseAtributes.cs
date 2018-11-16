@@ -43,14 +43,16 @@ public class ItemBaseAtributes : ScriptableObject
     [SerializeField] private string itemID = "I0000";
     [SerializeField] private string itemName = "";
     [SerializeField] private string itemDescription = "";
-    [SerializeField] private float itemValue = 0f;
+    [SerializeField] private int itemValue = 0;
     [SerializeField] private float baseDamage = 0;
     [SerializeField] private float baseDefense = 0;
     [SerializeField] private float attackSpeed = 0;
-    [SerializeField] private float strength = 0;
-    [SerializeField] private float agility = 0;
-    [SerializeField] private float intellect = 0;
-    [SerializeField] private float endurance = 0;
+
+    [SerializeField] private int strength = 0;
+    [SerializeField] private int agility = 0;
+    [SerializeField] private int intellect = 0;
+    [SerializeField] private int endurance = 0;
+
     [SerializeField] private float numericModifer = 0;
     [SerializeField] private float effectDuration = 0;
     [SerializeField] public bool isUnique = false;
@@ -99,7 +101,7 @@ public class ItemBaseAtributes : ScriptableObject
         set { this.itemPrefab = value; }
     }
 
-    public float ITEMVALUE
+    public int ITEMVALUE
     {
 
         get { return this.itemValue; }
@@ -120,7 +122,7 @@ public class ItemBaseAtributes : ScriptableObject
         set { this.baseDamage = value; }
     }
 
-    public float BASEDEFENCE
+    public float BASEDEFENSE
     {
 
         get { return this.baseDefense; }
@@ -134,28 +136,28 @@ public class ItemBaseAtributes : ScriptableObject
         set { this.attackSpeed = value; }
     }
 
-    public float STRENGTH
+    public int STRENGTH
     {
 
         get { return this.strength; }
         set { this.strength = value; }
     }
 
-    public float AGILITY
+    public int AGILITY
     {
 
         get { return this.agility; }
         set { this.agility = value; }
     }
 
-    public float INTELLECT
+    public int INTELLECT
     {
 
         get { return this.intellect; }
         set { this.intellect = value; }
     }
 
-    public float ENDURANCE
+    public int ENDURANCE
     {
 
         get { return this.endurance; }
@@ -186,7 +188,7 @@ public class ItemBaseAtributes : ScriptableObject
         this.ITEMPREFAB = item.ITEMPREFAB;
         this.ITEMVALUE = item.ITEMVALUE;
         this.BASEDAMAGE = item.BASEDAMAGE;
-        this.BASEDEFENCE = item.BASEDEFENCE;
+        this.BASEDEFENSE = item.BASEDEFENSE;
         this.ATTACKSPEED = item.ATTACKSPEED;
         this.STRENGTH = item.STRENGTH;
         this.AGILITY = item.AGILITY;
