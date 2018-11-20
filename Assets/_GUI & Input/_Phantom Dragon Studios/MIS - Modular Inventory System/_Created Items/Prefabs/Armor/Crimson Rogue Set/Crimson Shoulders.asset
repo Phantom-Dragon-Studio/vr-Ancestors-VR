@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9895668c40d50674a807c6fdf4827382, type: 3}
+  m_Name: Crimson Shoulders
+  m_EditorClassIdentifier: 
+  equippableItemSlot: 1
+  itemCategory: 2
+  itemRarity: 4
+  itemIcon: {fileID: 21300000, guid: 906d89a26c1b983449e00678f7a90b26, type: 3}
+  itemPrefab: {fileID: 1819620408817938, guid: 024c3f8a8aa4cf847aae5f8dde7ce590, type: 2}
+  itemID: ACS01
+  itemName: Crimson Shoulder Pads
+  itemDescription: Sleek crimson colored leather armour. Provides superior agility,
+    strength, endurance, and greatly increased defense.
+  itemValue: 1245
+  baseDamage: 0
+  baseDefense: 19
+  attackSpeed: 0
+  strength: 14
+  agility: 18
+  intellect: 0
+  endurance: 14
+  numericModifer: -1
+  effectDuration: -1
+  isUnique: 1
+  isTwoHanded: 0

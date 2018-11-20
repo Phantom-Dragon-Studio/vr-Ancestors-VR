@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3874f4cef2b5df7409e0db4454db9251, type: 3}
+  m_Name: _UISkinData
+  m_EditorClassIdentifier: 
+  elementSprite: {fileID: 21300000, guid: c2ce25eedcaa52b468ead7b95601355c, type: 3}
+  elementSpriteState:
+    m_HighlightedSprite: {fileID: 21300000, guid: c2ce25eedcaa52b468ead7b95601355c,
+      type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: c2ce25eedcaa52b468ead7b95601355c, type: 3}
+    m_DisabledSprite: {fileID: 21300000, guid: c2ce25eedcaa52b468ead7b95601355c, type: 3}
+  defaultButtonColor: {r: 1, g: 1, b: 1, a: 1}
+  defaultButtonSprite: {fileID: 21300000, guid: c2ce25eedcaa52b468ead7b95601355c,
+    type: 3}
+  confirmButtonColor: {r: 0, g: 1, b: 0.4444394, a: 0}
+  confirmButtonSprite: {fileID: 21300000, guid: f588d850485d0ae479d73cf3bd0b7b00,
+    type: 3}
+  declinedButtonColor: {r: 0.5849056, g: 0, b: 0, a: 0}
+  declinedButtonSprite: {fileID: 21300000, guid: 49b611e658efbf443b686a4036f74fe3,
+    type: 3}
+  warningButtonColor: {r: 1, g: 0.41844082, b: 0, a: 0}
+  warningButtonSprite: {fileID: 21300000, guid: 4db017495c69e8140a56a0e2b669e3f8,
+    type: 3}
+  hoverButtonDisabledColor: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 1}
+  hoverButtonHighlightColor: {r: 1, g: 0.6753422, b: 0, a: 1}
+  hoverButtonPressedColor: {r: 0.28033543, g: 1, b: 0, a: 1}

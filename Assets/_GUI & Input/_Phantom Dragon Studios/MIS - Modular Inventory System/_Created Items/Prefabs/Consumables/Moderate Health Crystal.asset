@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9895668c40d50674a807c6fdf4827382, type: 3}
+  m_Name: Moderate Health Crystal
+  m_EditorClassIdentifier: 
+  equippableItemSlot: 12
+  itemCategory: 3
+  itemRarity: 1
+  itemIcon: {fileID: 21300000, guid: 9fa4868b1e6dffe489a507d7b6f3f681, type: 3}
+  itemPrefab: {fileID: 1247971605668226, guid: 8c6f4e44eea5f834386ada4f02b1d077, type: 2}
+  itemID: CMHC1
+  itemName: Moderate Health Crystal
+  itemDescription: Restore 50 health over 60 seconds.
+  itemValue: 100
+  baseDamage: 0
+  baseDefense: 0
+  attackSpeed: 0
+  strength: 0
+  agility: 0
+  intellect: 0
+  endurance: 0
+  numericModifer: 50
+  effectDuration: 60
+  isUnique: 0
+  isTwoHanded: 0
