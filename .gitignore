@@ -3,11 +3,21 @@
 ##===============
 Temp/
 Library/
+Assets/__Sounds/
 Assets/Oculus/
 Assets/Standard Assets/
 Assets/2D Images/
-Assets/_Environmental Stuff/
+Assets/_Environmental_Stuff/
 Assets/Gaia/
+Assets/AQUAS/
+Assets/CTS/
+Assets/KriptoFX/
+Assets/NaturalTilingTextures/
+Assets/NatureManufacture Assets/
+Assets/Emerald AI 2.0/
+Assets/Enviro - Dynamic Enviroment/
+Assets/SineVFX/
+Assets/VolumetricFog/
 ##=====================================
 ##Visual Studio / MonoDevelop generated
 ##=====================================
