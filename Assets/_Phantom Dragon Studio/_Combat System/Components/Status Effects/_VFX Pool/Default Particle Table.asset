@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3b82445d8c3724fb9606361988c474, type: 3}
+  m_Name: Default Particle Table
+  m_EditorClassIdentifier: 
+  burningEffectVFX_ParticleSystem: {fileID: 1109531870034153573, guid: 792fc599773cc164c9afad2c9a9893fc,
+    type: 3}
+  frozenEffectVFX_ParticleSystem: {fileID: 6508037801106796968, guid: 02183317db9648c41ad2d640fd594270,
+    type: 3}
+  poisonEffectVFX_ParticleSystem: {fileID: 3107466998156712702, guid: eb9b164c32d4a9c40841f18328737d2f,
+    type: 3}
+  genericSlowingVFX_ParticleSystem: {fileID: 5823142808573632240, guid: 22bdeb630753458408b5bacd99de6b3f,
+    type: 3}
+  stunnedEffectVFX_ParticleSystem: {fileID: 2258345622179317715, guid: f95b380de2275fe4089b5436afac591d,
+    type: 3}
+  staticChargeEffectVFX_ParticleSystem: {fileID: 2258345622179317715, guid: 21f4076cbeeafdb47949809411a07fe0,
+    type: 3}
+  timedDeathVFX_ParticleSystem: {fileID: 1435603775894315660, guid: 11e71157ecb018847889cc6ec6be8013,
+    type: 3}
+  silencedEffectVFX_ParticleSystem: {fileID: 1435603775894315660, guid: 8ea4bf2f4124413499179cf83ee64456,
+    type: 3}
+  attributebuffEffectVFX_ParticleSystem: {fileID: 2258345622179317715, guid: 7fb96cbf3e91d21408b84b54a3189f73,
+    type: 3}

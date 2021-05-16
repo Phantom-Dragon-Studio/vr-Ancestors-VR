@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848ec69db2fd8d04fa35b7449bb76003, type: 3}
+  m_Name: DefaultGameSettings
+  m_EditorClassIdentifier: 
+  levelModifier: 4
+  difficultyModifier: 0.25
+  difficulty: 4
+  baseExperiencePerLevel: 1000
+  dodgeChanceToAttributeRatio: 0.1
+  criticalChanceToAttributeRatio: 0.1
+  M_E_FToAttributeRatio: 5
+  M_E_FRegenerationToAttributeRatio: 1.5
+  M_E_FRegenerationInterval: 2
+  healthToAttributeRatio: 5
+  healthRegenerationToAttributeRatio: 1.5
+  healthRegenerationInterval: 2
+  staminaToAttributeRatio: 5
+  staminaRegenerationToAttributeRatio: 1
+  staminaRegenerationInterval: 1
+  outOfCombatRegenerationMultiplier: 1
+  defenseToAttributeRatio: 1.5
+  damageToAttributeRatio: 1.5
+  defenseReductionRatio: 1.75
+  movementSpeedToAgilityRatio: 1
+  attackSpeedToAgilityRatio: 1
+  elementalAttunmentStrengthToDamageRatio: 1.75
+  elementalAttunmentDamageReductionRatio: 0.5

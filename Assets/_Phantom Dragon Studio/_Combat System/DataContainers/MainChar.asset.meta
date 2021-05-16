@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 18919cf3240086744ad3efcbb4ca44a1
+labels:
+- CharacterStats
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: combat system
+  assetBundleVariant: character stats

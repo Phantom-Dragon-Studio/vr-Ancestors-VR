@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e9c017bbb67694da1d5d1adf34ede5, type: 3}
+  m_Name: MainChar
+  m_EditorClassIdentifier: 
+  objectName: My Dude!
+  objectDescription: Ya boi
+  objectWorldLocation: {x: -0.706, y: 0.407, z: 0}
+  faction: 1
+  damageType: 2
+  armourType: 2
+  elementalAttunmentType: 8
+  healthBar: {fileID: 0}
+  M_E_FBar: {fileID: 0}
+  portrait: {fileID: 0}
+  characterModel: {fileID: 0}
+  maximumHealth: 1
+  currentHealth: 1
+  healthRegenerationAmount: 0
+  maximumM_E_F: 1
+  currentM_E_F: 1
+  M_E_FRegenerationAmount: 0
+  maximumStamina: 1
+  currentStamina: 1
+  staminaRegenerationAmount: 0
+  baseAttackRange: 0
+  baseMovementSpeed: 0
+  baseAttackSpeed: 0
+  baseDamage: 0
+  criticalStrikeChance: 0
+  dodgeChance: 0
+  baseDefense: 0
+  baseStrength: 0
+  baseAgility: 0
+  baseIntelligence: 0
+  baseEndurance: 0
+  elementalResistance: 0
+  fireResistance: 0
+  earthResistance: 0
+  windResistance: 0
+  divineResistance: 0
+  darkResistance: 0
+  arcaneResistance: 0
+  lightningResistance: 0
+  waterResistance: 0
+  objectIsStatic: 0
+  isAlive: 0
+  isInCombat: 0
+  ignoreDefense: 0
+  isPlayer: 0
+  isSilenced: 1
+  footstepSound: []
+  oofSound: []
+  attackSounds: []

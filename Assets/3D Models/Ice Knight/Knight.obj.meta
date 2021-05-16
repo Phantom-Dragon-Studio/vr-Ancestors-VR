@@ -1,0 +1,1058 @@
+fileFormatVersion: 2
+guid: b16bab95263b8d14d9358bff13c1510a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01_head
+    100004: Bip01_HeadNub
+    100006: Bip01_L_Calf
+    100008: Bip01_L_Clavicle
+    100010: Bip01_L_Finger0
+    100012: Bip01_L_Finger01
+    100014: Bip01_L_Finger0Nub
+    100016: Bip01_L_Finger1
+    100018: Bip01_L_Finger11
+    100020: Bip01_L_Finger1Nub
+    100022: Bip01_L_Finger2
+    100024: Bip01_L_Finger21
+    100026: Bip01_L_Finger2Nub
+    100028: Bip01_L_Finger3
+    100030: Bip01_L_Finger31
+    100032: Bip01_L_Finger3Nub
+    100034: Bip01_L_Finger4
+    100036: Bip01_L_Finger41
+    100038: Bip01_L_Finger4Nub
+    100040: Bip01_L_Foot
+    100042: Bip01_L_Forearm
+    100044: Bip01_L_ForeTwist
+    100046: Bip01_L_ForeTwist1
+    100048: Bip01_L_Hand
+    100050: Bip01_L_Thigh
+    100052: Bip01_L_Toe0
+    100054: Bip01_L_Toe0Nub
+    100056: Bip01_L_UpperArm
+    100058: Bip01_Neck
+    100060: Bip01_Pelvis
+    100062: Bip01_R_Calf
+    100064: Bip01_R_Clavicle
+    100066: Bip01_R_Finger0
+    100068: Bip01_R_Finger01
+    100070: Bip01_R_Finger0R
+    100072: Bip01_R_Finger1
+    100074: Bip01_R_Finger11
+    100076: Bip01_R_Finger1R
+    100078: Bip01_R_Finger2
+    100080: Bip01_R_Finger21
+    100082: Bip01_R_Finger2Nub
+    100084: Bip01_R_Finger3
+    100086: Bip01_R_Finger31
+    100088: Bip01_R_Finger3Nub
+    100090: Bip01_R_Finger4
+    100092: Bip01_R_Finger41
+    100094: Bip01_R_Finger4Nub
+    100096: Bip01_R_Foot
+    100098: Bip01_R_Forearm
+    100100: Bip01_R_ForeTwist
+    100102: bip01_r_foretwist1
+    100104: Bip01_R_Hand
+    100106: Bip01_R_Thigh
+    100108: Bip01_R_Toe0
+    100110: Bip01_R_Toe0Nub
+    100112: Bip01_R_UpperArm
+    100114: Bip01_Spine
+    100116: Bip01_Spine1
+    100118: bip01_spine2
+    100120: Bone01
+    100122: Bone02
+    100124: Bone03
+    100126: Bone04
+    100128: Bone05
+    100130: Bone06
+    100132: Bone07
+    100134: Bone08
+    100136: Bone09
+    100138: Bone10
+    100140: Bone11
+    100142: Bone12
+    100144: Bone13
+    100146: Bone14
+    100148: Bone15
+    100150: Bone16
+    100152: Dummy01
+    100154: Dummy02
+    100156: Dummy04
+    100158: ice_knight_m00
+    100160: //RootNode
+    100162: Object01
+    100164: Object02
+    100166: Shield_Bone
+    100168: Shield_Bone01
+    100170: skirt_born_main
+    100172: Sword_Bone
+    100174: Sword_Bone01
+    400000: Bip01
+    400002: Bip01_head
+    400004: Bip01_HeadNub
+    400006: Bip01_L_Calf
+    400008: Bip01_L_Clavicle
+    400010: Bip01_L_Finger0
+    400012: Bip01_L_Finger01
+    400014: Bip01_L_Finger0Nub
+    400016: Bip01_L_Finger1
+    400018: Bip01_L_Finger11
+    400020: Bip01_L_Finger1Nub
+    400022: Bip01_L_Finger2
+    400024: Bip01_L_Finger21
+    400026: Bip01_L_Finger2Nub
+    400028: Bip01_L_Finger3
+    400030: Bip01_L_Finger31
+    400032: Bip01_L_Finger3Nub
+    400034: Bip01_L_Finger4
+    400036: Bip01_L_Finger41
+    400038: Bip01_L_Finger4Nub
+    400040: Bip01_L_Foot
+    400042: Bip01_L_Forearm
+    400044: Bip01_L_ForeTwist
+    400046: Bip01_L_ForeTwist1
+    400048: Bip01_L_Hand
+    400050: Bip01_L_Thigh
+    400052: Bip01_L_Toe0
+    400054: Bip01_L_Toe0Nub
+    400056: Bip01_L_UpperArm
+    400058: Bip01_Neck
+    400060: Bip01_Pelvis
+    400062: Bip01_R_Calf
+    400064: Bip01_R_Clavicle
+    400066: Bip01_R_Finger0
+    400068: Bip01_R_Finger01
+    400070: Bip01_R_Finger0R
+    400072: Bip01_R_Finger1
+    400074: Bip01_R_Finger11
+    400076: Bip01_R_Finger1R
+    400078: Bip01_R_Finger2
+    400080: Bip01_R_Finger21
+    400082: Bip01_R_Finger2Nub
+    400084: Bip01_R_Finger3
+    400086: Bip01_R_Finger31
+    400088: Bip01_R_Finger3Nub
+    400090: Bip01_R_Finger4
+    400092: Bip01_R_Finger41
+    400094: Bip01_R_Finger4Nub
+    400096: Bip01_R_Foot
+    400098: Bip01_R_Forearm
+    400100: Bip01_R_ForeTwist
+    400102: bip01_r_foretwist1
+    400104: Bip01_R_Hand
+    400106: Bip01_R_Thigh
+    400108: Bip01_R_Toe0
+    400110: Bip01_R_Toe0Nub
+    400112: Bip01_R_UpperArm
+    400114: Bip01_Spine
+    400116: Bip01_Spine1
+    400118: bip01_spine2
+    400120: Bone01
+    400122: Bone02
+    400124: Bone03
+    400126: Bone04
+    400128: Bone05
+    400130: Bone06
+    400132: Bone07
+    400134: Bone08
+    400136: Bone09
+    400138: Bone10
+    400140: Bone11
+    400142: Bone12
+    400144: Bone13
+    400146: Bone14
+    400148: Bone15
+    400150: Bone16
+    400152: Dummy01
+    400154: Dummy02
+    400156: Dummy04
+    400158: ice_knight_m00
+    400160: //RootNode
+    400162: Object01
+    400164: Object02
+    400166: Shield_Bone
+    400168: Shield_Bone01
+    400170: skirt_born_main
+    400172: Sword_Bone
+    400174: Sword_Bone01
+    2100000: Bip01Mat
+    2100002: Bip01_headMat
+    2100004: Bip01_HeadNubMat
+    2100006: Bip01_L_CalfMat
+    2100008: Bip01_L_ClavicleMat
+    2100010: Bip01_L_Finger0Mat
+    2100012: Bip01_L_Finger01Mat
+    2100014: Bip01_L_Finger0NubMat
+    2100016: Bip01_L_Finger1Mat
+    2100018: Bip01_L_Finger11Mat
+    2100020: Bip01_L_Finger1NubMat
+    2100022: Bip01_L_Finger2Mat
+    2100024: Bip01_L_Finger21Mat
+    2100026: Bip01_L_Finger2NubMat
+    2100028: Bip01_L_Finger3Mat
+    2100030: Bip01_L_Finger31Mat
+    2100032: Bip01_L_Finger3NubMat
+    2100034: Bip01_L_Finger4Mat
+    2100036: Bip01_L_Finger41Mat
+    2100038: Bip01_L_Finger4NubMat
+    2100040: Bip01_L_FootMat
+    2100042: Bip01_L_ForearmMat
+    2100044: Bip01_L_ForeTwistMat
+    2100046: Bip01_L_ForeTwist1Mat
+    2100048: Bip01_L_HandMat
+    2100050: Bip01_L_ThighMat
+    2100052: Bip01_L_Toe0Mat
+    2100054: Bip01_L_Toe0NubMat
+    2100056: Bip01_L_UpperArmMat
+    2100058: Bip01_NeckMat
+    2100060: Bip01_PelvisMat
+    2100062: Bip01_R_CalfMat
+    2100064: Bip01_R_ClavicleMat
+    2100066: Bip01_R_Finger0Mat
+    2100068: Bip01_R_Finger01Mat
+    2100070: Bip01_R_Finger0RMat
+    2100072: Bip01_R_Finger1Mat
+    2100074: Bip01_R_Finger11Mat
+    2100076: Bip01_R_Finger1RMat
+    2100078: Bip01_R_Finger2Mat
+    2100080: Bip01_R_Finger21Mat
+    2100082: Bip01_R_Finger2NubMat
+    2100084: Bip01_R_Finger3Mat
+    2100086: Bip01_R_Finger31Mat
+    2100088: Bip01_R_Finger3NubMat
+    2100090: Bip01_R_Finger4Mat
+    2100092: Bip01_R_Finger41Mat
+    2100094: Bip01_R_Finger4NubMat
+    2100096: Bip01_R_FootMat
+    2100098: Bip01_R_ForearmMat
+    2100100: Bip01_R_ForeTwistMat
+    2100102: bip01_r_foretwist1Mat
+    2100104: Bip01_R_HandMat
+    2100106: Bip01_R_ThighMat
+    2100108: Bip01_R_Toe0Mat
+    2100110: Bip01_R_Toe0NubMat
+    2100112: Bip01_R_UpperArmMat
+    2100114: Bip01_SpineMat
+    2100116: Bip01_Spine1Mat
+    2100118: bip01_spine2Mat
+    2100120: Bone01Mat
+    2100122: Bone02Mat
+    2100124: Bone03Mat
+    2100126: Bone04Mat
+    2100128: Bone05Mat
+    2100130: Bone06Mat
+    2100132: Bone07Mat
+    2100134: Bone08Mat
+    2100136: Bone09Mat
+    2100138: Bone10Mat
+    2100140: Bone11Mat
+    2100142: Bone12Mat
+    2100144: Bone13Mat
+    2100146: Bone14Mat
+    2100148: Bone15Mat
+    2100150: Bone16Mat
+    2100152: Dummy01Mat
+    2100154: Dummy02Mat
+    2100156: Dummy04Mat
+    2100158: ice_knight_m00Mat
+    2100160: Object01Mat
+    2100162: Object02Mat
+    2100164: Shield_BoneMat
+    2100166: Shield_Bone01Mat
+    2100168: skirt_born_mainMat
+    2100170: Sword_BoneMat
+    2100172: Sword_Bone01Mat
+    2300000: Bip01
+    2300002: Bip01_head
+    2300004: Bip01_HeadNub
+    2300006: Bip01_L_Calf
+    2300008: Bip01_L_Clavicle
+    2300010: Bip01_L_Finger0
+    2300012: Bip01_L_Finger01
+    2300014: Bip01_L_Finger0Nub
+    2300016: Bip01_L_Finger1
+    2300018: Bip01_L_Finger11
+    2300020: Bip01_L_Finger1Nub
+    2300022: Bip01_L_Finger2
+    2300024: Bip01_L_Finger21
+    2300026: Bip01_L_Finger2Nub
+    2300028: Bip01_L_Finger3
+    2300030: Bip01_L_Finger31
+    2300032: Bip01_L_Finger3Nub
+    2300034: Bip01_L_Finger4
+    2300036: Bip01_L_Finger41
+    2300038: Bip01_L_Finger4Nub
+    2300040: Bip01_L_Foot
+    2300042: Bip01_L_Forearm
+    2300044: Bip01_L_ForeTwist
+    2300046: Bip01_L_ForeTwist1
+    2300048: Bip01_L_Hand
+    2300050: Bip01_L_Thigh
+    2300052: Bip01_L_Toe0
+    2300054: Bip01_L_Toe0Nub
+    2300056: Bip01_L_UpperArm
+    2300058: Bip01_Neck
+    2300060: Bip01_Pelvis
+    2300062: Bip01_R_Calf
+    2300064: Bip01_R_Clavicle
+    2300066: Bip01_R_Finger0
+    2300068: Bip01_R_Finger01
+    2300070: Bip01_R_Finger0R
+    2300072: Bip01_R_Finger1
+    2300074: Bip01_R_Finger11
+    2300076: Bip01_R_Finger1R
+    2300078: Bip01_R_Finger2
+    2300080: Bip01_R_Finger21
+    2300082: Bip01_R_Finger2Nub
+    2300084: Bip01_R_Finger3
+    2300086: Bip01_R_Finger31
+    2300088: Bip01_R_Finger3Nub
+    2300090: Bip01_R_Finger4
+    2300092: Bip01_R_Finger41
+    2300094: Bip01_R_Finger4Nub
+    2300096: Bip01_R_Foot
+    2300098: Bip01_R_Forearm
+    2300100: Bip01_R_ForeTwist
+    2300102: bip01_r_foretwist1
+    2300104: Bip01_R_Hand
+    2300106: Bip01_R_Thigh
+    2300108: Bip01_R_Toe0
+    2300110: Bip01_R_Toe0Nub
+    2300112: Bip01_R_UpperArm
+    2300114: Bip01_Spine
+    2300116: Bip01_Spine1
+    2300118: bip01_spine2
+    2300120: Bone01
+    2300122: Bone02
+    2300124: Bone03
+    2300126: Bone04
+    2300128: Bone05
+    2300130: Bone06
+    2300132: Bone07
+    2300134: Bone08
+    2300136: Bone09
+    2300138: Bone10
+    2300140: Bone11
+    2300142: Bone12
+    2300144: Bone13
+    2300146: Bone14
+    2300148: Bone15
+    2300150: Bone16
+    2300152: Dummy01
+    2300154: Dummy02
+    2300156: Dummy04
+    2300158: ice_knight_m00
+    2300160: Object01
+    2300162: Object02
+    2300164: Shield_Bone
+    2300166: Shield_Bone01
+    2300168: skirt_born_main
+    2300170: Sword_Bone
+    2300172: Sword_Bone01
+    3300000: Bip01
+    3300002: Bip01_head
+    3300004: Bip01_HeadNub
+    3300006: Bip01_L_Calf
+    3300008: Bip01_L_Clavicle
+    3300010: Bip01_L_Finger0
+    3300012: Bip01_L_Finger01
+    3300014: Bip01_L_Finger0Nub
+    3300016: Bip01_L_Finger1
+    3300018: Bip01_L_Finger11
+    3300020: Bip01_L_Finger1Nub
+    3300022: Bip01_L_Finger2
+    3300024: Bip01_L_Finger21
+    3300026: Bip01_L_Finger2Nub
+    3300028: Bip01_L_Finger3
+    3300030: Bip01_L_Finger31
+    3300032: Bip01_L_Finger3Nub
+    3300034: Bip01_L_Finger4
+    3300036: Bip01_L_Finger41
+    3300038: Bip01_L_Finger4Nub
+    3300040: Bip01_L_Foot
+    3300042: Bip01_L_Forearm
+    3300044: Bip01_L_ForeTwist
+    3300046: Bip01_L_ForeTwist1
+    3300048: Bip01_L_Hand
+    3300050: Bip01_L_Thigh
+    3300052: Bip01_L_Toe0
+    3300054: Bip01_L_Toe0Nub
+    3300056: Bip01_L_UpperArm
+    3300058: Bip01_Neck
+    3300060: Bip01_Pelvis
+    3300062: Bip01_R_Calf
+    3300064: Bip01_R_Clavicle
+    3300066: Bip01_R_Finger0
+    3300068: Bip01_R_Finger01
+    3300070: Bip01_R_Finger0R
+    3300072: Bip01_R_Finger1
+    3300074: Bip01_R_Finger11
+    3300076: Bip01_R_Finger1R
+    3300078: Bip01_R_Finger2
+    3300080: Bip01_R_Finger21
+    3300082: Bip01_R_Finger2Nub
+    3300084: Bip01_R_Finger3
+    3300086: Bip01_R_Finger31
+    3300088: Bip01_R_Finger3Nub
+    3300090: Bip01_R_Finger4
+    3300092: Bip01_R_Finger41
+    3300094: Bip01_R_Finger4Nub
+    3300096: Bip01_R_Foot
+    3300098: Bip01_R_Forearm
+    3300100: Bip01_R_ForeTwist
+    3300102: bip01_r_foretwist1
+    3300104: Bip01_R_Hand
+    3300106: Bip01_R_Thigh
+    3300108: Bip01_R_Toe0
+    3300110: Bip01_R_Toe0Nub
+    3300112: Bip01_R_UpperArm
+    3300114: Bip01_Spine
+    3300116: Bip01_Spine1
+    3300118: bip01_spine2
+    3300120: Bone01
+    3300122: Bone02
+    3300124: Bone03
+    3300126: Bone04
+    3300128: Bone05
+    3300130: Bone06
+    3300132: Bone07
+    3300134: Bone08
+    3300136: Bone09
+    3300138: Bone10
+    3300140: Bone11
+    3300142: Bone12
+    3300144: Bone13
+    3300146: Bone14
+    3300148: Bone15
+    3300150: Bone16
+    3300152: Dummy01
+    3300154: Dummy02
+    3300156: Dummy04
+    3300158: ice_knight_m00
+    3300160: Object01
+    3300162: Object02
+    3300164: Shield_Bone
+    3300166: Shield_Bone01
+    3300168: skirt_born_main
+    3300170: Sword_Bone
+    3300172: Sword_Bone01
+    4300000: Bip01
+    4300002: Bip01_head
+    4300004: Bip01_HeadNub
+    4300006: Bip01_L_Calf
+    4300008: Bip01_L_Clavicle
+    4300010: Bip01_L_Finger0
+    4300012: Bip01_L_Finger01
+    4300014: Bip01_L_Finger0Nub
+    4300016: Bip01_L_Finger1
+    4300018: Bip01_L_Finger11
+    4300020: Bip01_L_Finger1Nub
+    4300022: Bip01_L_Finger2
+    4300024: Bip01_L_Finger21
+    4300026: Bip01_L_Finger2Nub
+    4300028: Bip01_L_Finger3
+    4300030: Bip01_L_Finger31
+    4300032: Bip01_L_Finger3Nub
+    4300034: Bip01_L_Finger4
+    4300036: Bip01_L_Finger41
+    4300038: Bip01_L_Finger4Nub
+    4300040: Bip01_L_Foot
+    4300042: Bip01_L_Forearm
+    4300044: Bip01_L_ForeTwist
+    4300046: Bip01_L_ForeTwist1
+    4300048: Bip01_L_Hand
+    4300050: Bip01_L_Thigh
+    4300052: Bip01_L_Toe0
+    4300054: Bip01_L_Toe0Nub
+    4300056: Bip01_L_UpperArm
+    4300058: Bip01_Neck
+    4300060: Bip01_Pelvis
+    4300062: Bip01_R_Calf
+    4300064: Bip01_R_Clavicle
+    4300066: Bip01_R_Finger0
+    4300068: Bip01_R_Finger01
+    4300070: Bip01_R_Finger0R
+    4300072: Bip01_R_Finger1
+    4300074: Bip01_R_Finger11
+    4300076: Bip01_R_Finger1R
+    4300078: Bip01_R_Finger2
+    4300080: Bip01_R_Finger21
+    4300082: Bip01_R_Finger2Nub
+    4300084: Bip01_R_Finger3
+    4300086: Bip01_R_Finger31
+    4300088: Bip01_R_Finger3Nub
+    4300090: Bip01_R_Finger4
+    4300092: Bip01_R_Finger41
+    4300094: Bip01_R_Finger4Nub
+    4300096: Bip01_R_Foot
+    4300098: Bip01_R_Forearm
+    4300100: Bip01_R_ForeTwist
+    4300102: bip01_r_foretwist1
+    4300104: Bip01_R_Hand
+    4300106: Bip01_R_Thigh
+    4300108: Bip01_R_Toe0
+    4300110: Bip01_R_Toe0Nub
+    4300112: Bip01_R_UpperArm
+    4300114: Bip01_Spine
+    4300116: Bip01_Spine1
+    4300118: bip01_spine2
+    4300120: Bone01
+    4300122: Bone02
+    4300124: Bone03
+    4300126: Bone04
+    4300128: Bone05
+    4300130: Bone06
+    4300132: Bone07
+    4300134: Bone08
+    4300136: Bone09
+    4300138: Bone10
+    4300140: Bone11
+    4300142: Bone12
+    4300144: Bone13
+    4300146: Bone14
+    4300148: Bone15
+    4300150: Bone16
+    4300152: Dummy01
+    4300154: Dummy02
+    4300156: Dummy04
+    4300158: ice_knight_m00
+    4300160: Object01
+    4300162: Object02
+    4300164: Shield_Bone
+    4300166: Shield_Bone01
+    4300168: skirt_born_main
+    4300170: Sword_Bone
+    4300172: Sword_Bone01
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: Knight(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_head
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_HeadNub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Calf
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Clavicle
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger0
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger01
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger0Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger1
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger11
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger1Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger2
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger21
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger2Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger3
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger31
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger3Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger4
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger41
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Finger4Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Foot
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Forearm
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_ForeTwist
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_ForeTwist1
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Hand
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Thigh
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Toe0
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_Toe0Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_L_UpperArm
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_Neck
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_Pelvis
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Calf
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Clavicle
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger0
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger01
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger0R
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger1
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger11
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger1R
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger2
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger21
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger2Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger3
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger31
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger3Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger4
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger41
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Finger4Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Foot
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Forearm
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_ForeTwist
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip01_r_foretwist1
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Hand
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Thigh
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Toe0
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_Toe0Nub
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_R_UpperArm
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_Spine
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01_Spine1
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bip01_spine2
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone01
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone02
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone03
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone04
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone05
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone06
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone07
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone08
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone09
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone10
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone11
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone12
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone13
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone14
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone15
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone16
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dummy01
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dummy02
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dummy04
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ice_knight_m00
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object01
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Object02
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shield_Bone
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shield_Bone01
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_born_main
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword_Bone
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword_Bone01
+      parentName: Knight(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Bip01
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: b16bab95263b8d14d9358bff13c1510a,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

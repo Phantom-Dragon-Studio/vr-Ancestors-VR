@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e9c017bbb67694da1d5d1adf34ede5, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: 
+  faction: 0
+  damageType: 0
+  armourType: 0
+  elementalAttunmentType: 0
+  unitType: 0
+  healthBar: {fileID: 0}
+  M_E_FBar: {fileID: 0}
+  portrait: {fileID: 0}
+  characterModel: {fileID: 0}
+  objectWorldLocation: {x: -221.106, y: 165.656, z: -36.251}
+  objectName: Enemy
+  objectDescription: 
+  characterLevel: 1
+  totalExperience: 0
+  maximumHealth: 110.25
+  currentHealth: 25
+  healthRegenerationAmount: 2
+  maximumM_E_F: 50
+  currentM_E_F: 50
+  M_E_FRegenerationAmount: 2
+  maximumStamina: 26.25
+  currentStamina: 804.84
+  staminaRegenerationAmount: 5.25
+  baseAttackRange: 0
+  baseMovementSpeed: 5.25
+  baseAttackSpeed: 5.25
+  baseDamage: 7.875
+  criticalStrikeChance: 0.52500004
+  dodgeChance: 0.52500004
+  baseDefense: 28.875
+  baseStrength: 21
+  baseAgility: 21
+  baseIntelligence: 21
+  baseEndurance: 21
+  elementalResistance: 0
+  fireResistance: 0
+  earthResistance: 0
+  windResistance: 0
+  divineResistance: 0
+  darkResistance: 0
+  arcaneResistance: 0
+  lightningResistance: 0
+  waterResistance: 0
+  objectIsStatic: 0
+  isAlive: 0
+  isInCombat: 0
+  ignoreDefense: 0
+  isPlayer: 0
+  isSilenced: 0
+  footstepSound:
+  - {fileID: 0}
+  oofSound:
+  - {fileID: 0}
+  attackSounds: []

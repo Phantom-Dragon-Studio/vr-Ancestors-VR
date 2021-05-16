@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb42b0a04d77be542be2650b3f449656, type: 3}
+  m_Name: Default Skyboxes
+  m_EditorClassIdentifier: 
+  loadingScreenMaterial: {fileID: 2100000, guid: 4a4fac8f38bbd444796fd8e0dba94d80,
+    type: 2}
+  nightMaterial: {fileID: 2100000, guid: 16b65e5a39d679540947eeb117e178c4, type: 2}
+  morningMaterial: {fileID: 2100000, guid: f5dd65a85adcfdf4c824844cb1dadbb8, type: 2}
+  dayMaterial: {fileID: 2100000, guid: 11f9a890b6e86384aaf4d69fbe79a6c1, type: 2}
+  rainingDayMaterial: {fileID: 0}
+  rainingNightMaterial: {fileID: 0}

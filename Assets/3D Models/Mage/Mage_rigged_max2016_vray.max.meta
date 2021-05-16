@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 1fb3221c52ebd344aad1b800265ae315
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 002
+    100002: 003
+    100004: 003.Target
+    100006: 004
+    100008: 004.Target
+    100010: 005
+    100012: 005.Target
+    100014: 01
+    100016: Base Human
+    100018: Base HumanHead
+    100020: Base HumanLCalf
+    100022: Base HumanLCollarbone
+    100024: Base HumanLDigit11
+    100026: Base HumanLDigit11 1
+    100028: Base HumanLDigit12
+    100030: Base HumanLDigit13
+    100032: Base HumanLDigit21
+    100034: Base HumanLDigit22
+    100036: Base HumanLDigit23
+    100038: Base HumanLDigit31
+    100040: Base HumanLDigit32
+    100042: Base HumanLDigit33
+    100044: Base HumanLDigit41
+    100046: Base HumanLDigit42
+    100048: Base HumanLDigit43
+    100050: Base HumanLDigit51
+    100052: Base HumanLDigit52
+    100054: Base HumanLDigit53
+    100056: Base HumanLFoot
+    100058: Base HumanLForearm
+    100060: Base HumanLPalm
+    100062: Base HumanLPlatform
+    100064: Base HumanLThigh
+    100066: Base HumanLUpperarm
+    100068: Base HumanNeck1
+    100070: Base HumanNeck2
+    100072: Base HumanPelvis
+    100074: Base HumanRCalf
+    100076: Base HumanRCollarbone
+    100078: Base HumanRDigit11
+    100080: Base HumanRDigit11 1
+    100082: Base HumanRDigit12
+    100084: Base HumanRDigit13
+    100086: Base HumanRDigit21
+    100088: Base HumanRDigit22
+    100090: Base HumanRDigit23
+    100092: Base HumanRDigit31
+    100094: Base HumanRDigit32
+    100096: Base HumanRDigit33
+    100098: Base HumanRDigit41
+    100100: Base HumanRDigit42
+    100102: Base HumanRDigit43
+    100104: Base HumanRDigit51
+    100106: Base HumanRDigit52
+    100108: Base HumanRDigit53
+    100110: Base HumanRFoot
+    100112: Base HumanRForearm
+    100114: Base HumanRibcage
+    100116: Base HumanRPalm
+    100118: Base HumanRPlatform
+    100120: Base HumanRThigh
+    100122: Base HumanRUpperarm
+    100124: Base HumanSpine1
+    100126: Base HumanSpine2
+    100128: Base HumanSpine3
+    100130: Base HumanSpine4
+    100132: Mage
+    100134: //RootNode
+    100136: mage_weapon
+    100138: Omni007
+    100140: Omni008
+    100142: Plane002
+    100144: Spot00111
+    100146: Spot00111.Target
+    100148: Spot112
+    100150: Spot112.Target
+    100152: VRayLight009
+    400000: 002
+    400002: 003
+    400004: 003.Target
+    400006: 004
+    400008: 004.Target
+    400010: 005
+    400012: 005.Target
+    400014: 01
+    400016: Base Human
+    400018: Base HumanHead
+    400020: Base HumanLCalf
+    400022: Base HumanLCollarbone
+    400024: Base HumanLDigit11
+    400026: Base HumanLDigit11 1
+    400028: Base HumanLDigit12
+    400030: Base HumanLDigit13
+    400032: Base HumanLDigit21
+    400034: Base HumanLDigit22
+    400036: Base HumanLDigit23
+    400038: Base HumanLDigit31
+    400040: Base HumanLDigit32
+    400042: Base HumanLDigit33
+    400044: Base HumanLDigit41
+    400046: Base HumanLDigit42
+    400048: Base HumanLDigit43
+    400050: Base HumanLDigit51
+    400052: Base HumanLDigit52
+    400054: Base HumanLDigit53
+    400056: Base HumanLFoot
+    400058: Base HumanLForearm
+    400060: Base HumanLPalm
+    400062: Base HumanLPlatform
+    400064: Base HumanLThigh
+    400066: Base HumanLUpperarm
+    400068: Base HumanNeck1
+    400070: Base HumanNeck2
+    400072: Base HumanPelvis
+    400074: Base HumanRCalf
+    400076: Base HumanRCollarbone
+    400078: Base HumanRDigit11
+    400080: Base HumanRDigit11 1
+    400082: Base HumanRDigit12
+    400084: Base HumanRDigit13
+    400086: Base HumanRDigit21
+    400088: Base HumanRDigit22
+    400090: Base HumanRDigit23
+    400092: Base HumanRDigit31
+    400094: Base HumanRDigit32
+    400096: Base HumanRDigit33
+    400098: Base HumanRDigit41
+    400100: Base HumanRDigit42
+    400102: Base HumanRDigit43
+    400104: Base HumanRDigit51
+    400106: Base HumanRDigit52
+    400108: Base HumanRDigit53
+    400110: Base HumanRFoot
+    400112: Base HumanRForearm
+    400114: Base HumanRibcage
+    400116: Base HumanRPalm
+    400118: Base HumanRPlatform
+    400120: Base HumanRThigh
+    400122: Base HumanRUpperarm
+    400124: Base HumanSpine1
+    400126: Base HumanSpine2
+    400128: Base HumanSpine3
+    400130: Base HumanSpine4
+    400132: Mage
+    400134: //RootNode
+    400136: mage_weapon
+    400138: Omni007
+    400140: Omni008
+    400142: Plane002
+    400144: Spot00111
+    400146: Spot00111.Target
+    400148: Spot112
+    400150: Spot112.Target
+    400152: VRayLight009
+    2000000: 002
+    2000002: 003
+    2000004: 004
+    2000006: 005
+    2000008: 01
+    2100000: 'Material #31'
+    2100002: 'Material #56'
+    2300000: mage_weapon
+    2300002: Plane002
+    3300000: mage_weapon
+    3300002: Plane002
+    4300000: Mage
+    4300002: mage_weapon
+    4300004: Plane002
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Omni007
+    10800002: Omni008
+    10800004: Spot00111
+    10800006: Spot112
+    13700000: Mage
+    6000828045688606266: 003
+    6000828045688606268: 004
+    6000828045688606270: 005
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

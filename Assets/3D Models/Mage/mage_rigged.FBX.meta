@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: a6947c43d02924b48a9fdd15cfa79586
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base HumanHead
+    100002: Base HumanLCalf
+    100004: Base HumanLCollarbone
+    100006: Base HumanLDigit11
+    100008: Base HumanLDigit11 1
+    100010: Base HumanLDigit12
+    100012: Base HumanLDigit13
+    100014: Base HumanLDigit21
+    100016: Base HumanLDigit22
+    100018: Base HumanLDigit23
+    100020: Base HumanLDigit31
+    100022: Base HumanLDigit32
+    100024: Base HumanLDigit33
+    100026: Base HumanLDigit41
+    100028: Base HumanLDigit42
+    100030: Base HumanLDigit43
+    100032: Base HumanLDigit51
+    100034: Base HumanLDigit52
+    100036: Base HumanLDigit53
+    100038: Base HumanLFoot
+    100040: Base HumanLForearm
+    100042: Base HumanLPalm
+    100044: Base HumanLThigh
+    100046: Base HumanLUpperarm
+    100048: Base HumanNeck1
+    100050: Base HumanNeck2
+    100052: Base HumanPelvis
+    100054: Base HumanRCalf
+    100056: Base HumanRCollarbone
+    100058: Base HumanRDigit11
+    100060: Base HumanRDigit11 1
+    100062: Base HumanRDigit12
+    100064: Base HumanRDigit13
+    100066: Base HumanRDigit21
+    100068: Base HumanRDigit22
+    100070: Base HumanRDigit23
+    100072: Base HumanRDigit31
+    100074: Base HumanRDigit32
+    100076: Base HumanRDigit33
+    100078: Base HumanRDigit41
+    100080: Base HumanRDigit42
+    100082: Base HumanRDigit43
+    100084: Base HumanRDigit51
+    100086: Base HumanRDigit52
+    100088: Base HumanRDigit53
+    100090: Base HumanRFoot
+    100092: Base HumanRForearm
+    100094: Base HumanRibcage
+    100096: Base HumanRPalm
+    100098: Base HumanRThigh
+    100100: Base HumanRUpperarm
+    100102: Base HumanSpine1
+    100104: Base HumanSpine2
+    100106: Base HumanSpine3
+    100108: Base HumanSpine4
+    100110: Mage
+    100112: //RootNode
+    100114: mage_weapon
+    400000: Base HumanHead
+    400002: Base HumanLCalf
+    400004: Base HumanLCollarbone
+    400006: Base HumanLDigit11
+    400008: Base HumanLDigit11 1
+    400010: Base HumanLDigit12
+    400012: Base HumanLDigit13
+    400014: Base HumanLDigit21
+    400016: Base HumanLDigit22
+    400018: Base HumanLDigit23
+    400020: Base HumanLDigit31
+    400022: Base HumanLDigit32
+    400024: Base HumanLDigit33
+    400026: Base HumanLDigit41
+    400028: Base HumanLDigit42
+    400030: Base HumanLDigit43
+    400032: Base HumanLDigit51
+    400034: Base HumanLDigit52
+    400036: Base HumanLDigit53
+    400038: Base HumanLFoot
+    400040: Base HumanLForearm
+    400042: Base HumanLPalm
+    400044: Base HumanLThigh
+    400046: Base HumanLUpperarm
+    400048: Base HumanNeck1
+    400050: Base HumanNeck2
+    400052: Base HumanPelvis
+    400054: Base HumanRCalf
+    400056: Base HumanRCollarbone
+    400058: Base HumanRDigit11
+    400060: Base HumanRDigit11 1
+    400062: Base HumanRDigit12
+    400064: Base HumanRDigit13
+    400066: Base HumanRDigit21
+    400068: Base HumanRDigit22
+    400070: Base HumanRDigit23
+    400072: Base HumanRDigit31
+    400074: Base HumanRDigit32
+    400076: Base HumanRDigit33
+    400078: Base HumanRDigit41
+    400080: Base HumanRDigit42
+    400082: Base HumanRDigit43
+    400084: Base HumanRDigit51
+    400086: Base HumanRDigit52
+    400088: Base HumanRDigit53
+    400090: Base HumanRFoot
+    400092: Base HumanRForearm
+    400094: Base HumanRibcage
+    400096: Base HumanRPalm
+    400098: Base HumanRThigh
+    400100: Base HumanRUpperarm
+    400102: Base HumanSpine1
+    400104: Base HumanSpine2
+    400106: Base HumanSpine3
+    400108: Base HumanSpine4
+    400110: Mage
+    400112: //RootNode
+    400114: mage_weapon
+    2100000: 'Material #56'
+    2300000: mage_weapon
+    3300000: mage_weapon
+    4300000: Mage
+    4300002: mage_weapon
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Mage
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #56'
+    second: {fileID: 2100000, guid: aa8d3293e162c224b81d16f6368f22dd, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
